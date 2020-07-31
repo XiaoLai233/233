@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>1901班务栏</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="no-transform"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="layoutmode" content="standard">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="renderer" content="webkit">
+    <meta content="always" name="referrer">
+
+    <script type="text/javascript">
+        try {
+            var ua = navigator.userAgent.toLowerCase();
+
+            var isWeixin = ua.indexOf('micromessenger') != -1 && ua.indexOf('wxwork') == -1 && ua.indexOf('miniProgram') == -1
+            if (isWeixin && (!tmpGetCookie("_checkWxLogin") || !tmpGetCookie('_wxOpenId2'))) {
+                document.cookie="_checkWxLogin=true";document.location.href='/wxGetOpenId.jsp?returnUrl=' + encodeURIComponent(document.location.href);
+            }
+        } catch (e){}
+
+        function tmpGetCookie(name) {
+            var arr = document.cookie.replace(/\s/g, "").split(';');
+            for (var i = 0; i < arr.length; i++) {
+                var tempArr = arr[i].split('=');
+                if (tempArr[0] == name) {
+                    return decodeURIComponent(tempArr[1]);
+                }
+            }
+            return '';
+        }
+    </script>
+    <meta name="wap-font-scale" content="no">
+    <meta content="telephone=no" name="format-detection" />
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <link rel="stylesheet" type="text/css" id="jzBasicFontIcons" href="//mo.faisys.com/css/fontsIco.min.css?v=202001151533"/>
+    <link rel="stylesheet" type="text/css" href="//mo.faisys.com/css/base.min.css?v=202007291702" title="default" />
+    <link rel="stylesheet" type="text/css" href="//mo.faisys.com/css/mobiVueComponent.min.css?v=201911201328" title="default" />
+    <link rel="stylesheet" type="text/css" href="//mo.faisys.com/css/bannerAnimation.min.css?v=201903201410" title="" />
+    <link rel="stylesheet" type="text/css" href="//mo.faisys.com/css/moduleAnimation.min.css?v=201909251518" title="" />
+    <link rel="stylesheet" type="text/css" href="//mo.faisys.com/css/dist/module.min.css?v=202007291702"/>
+    <link rel="stylesheet" type="text/css" href="//mo.faisys.com/css/baseOld.min.css?v=202005131340" title="default" />
+    <link rel="stylesheet" id="mobiStyleTemplateCss" type="text/css" href="//mo.faisys.com/css/template/348.min.css?v=201903201410"/>
+
+    <script id="baiduMiniApp" type="text/javascript" charset="utf-8" src="https://b.bdstatic.com/searchbox/icms/searchbox/js/swan-2.0.18.js"></script>
+    <style id='mobiTabStyleCss'>
+    </style>
+    <style id='mobiFoldStyleCss'>
+        .fk-foldStyle1 .f-formFoldButton.active{color:#4664c7;}
+        .fk-foldStyle1 .f-formFoldButton.active .icon-fold:before{color:#4664c7;}
+        .fk-foldStyle2 .f-formFoldButton.active{background:#4664c7;}
+        .fk-foldStyle3 .f-formFoldButton.active{color:#4664c7;}
+        .fk-foldStyle3 .f-formFoldButton.active .icon-fold:before{color:#4664c7;}
+    </style>
+    <style id='mobiLabelStyleCss'>
+    </style>
+    <style id='mobiNoticeStyleCss'>
+        .icon-noticeNewStyleIconClass-6{background-color:#4664c7;}
+        .icon-noticeNewStyleIconClass-7{background-color:#4664c7;}
+        .icon-noticeNewStyleIconClass-8{border-color:#4664c7;}
+        .icon-noticeNewStyleIconClass-8{color:#4664c7;}
+        .icon-noticeNewStyleIconClass-9{color:#4664c7;}
+    </style>
+    <style id='oldThemeColorStyle'>
+        .g_oldThemeColor{color:#4664c7;}
+        .g_oldThemeBdColor{border-color:#4664c7;}
+        .g_oldThemeBgColor{background-color:#4664c7;}
+        .g_oldThemefillColor{fill:#4664c7;}
+        .g_oldThemeHoverBgColor:hover{background-color:#4664c7;}
+    </style>
+    <style id='footerNavStyle'>
+        .p_footer_nav .u_nav{width:;}
+    </style>
+    <style id='mobiStyleModule'>
+        #module342 {border:none;}
+        #module342 {padding:0px;}
+        #module342 .formMiddle342{border:none;}
+        #module342 .formMiddle342{padding:0px;}
+        #module342 .formBannerTitle342{border:none;}
+        #module342 .formBannerTitle342{padding:0px;}
+        #module342 {height:38px;}
+        #module342 .formBannerTitle342{display:none !important;}
+        #module342 {padding:0px;}
+        #module342 {margin-left:0px;}
+        #module342 {margin-right:0px;}
+        #module342 {margin-top:0px;}
+        #module342 {margin-bottom:0px;}
+        #module330 .formBannerTitle330{display:none !important;}
+        #module330 .formMiddle330 .g_notice_text{font-size:0.59733rem;}
+        #module330 .formMiddle330 .g_notice_link{font-size:0.59733rem;}
+        #module330 .formMiddle330 .g_notice_link{color:rgba(66, 165, 246, 1);}
+        #module330 .formMiddle330 .g_notice_link{text-decoration:underline;}
+        #module302 .titleText302{font-size:0.862533692722372rem;}
+        #module302 .titleText302{font-weight:bolder;}
+        #module314 {height:110px;}
+        #module314 {background:none;}
+        #module314 .formMiddle314 {background: rgba(243, 243, 243, 0.5321100917431193);}
+        #module314 .formMiddle314 .formMiddleCenter314{background:none;}
+        #module314 .formMiddleContent314{background:none;}
+        #module314 .g_background{background:none;}
+        #module316 {height:58px;}
+        #module335 .downloadSvg{width:1.2938005390835579rem;height:1.2938005390835579rem;}
+        #module360 {height:144px;}
+        #module360 .formBannerTitle360{display:none !important;}
+        #module359 {height:139px;}
+    </style>
+    <style id='mobiStyleNav' type='text/css'>
+        .open .navItem:nth-child(2) {transition-delay: 160ms;}
+        .open .navItem:nth-child(4) {transition-delay: 240ms;}
+        .open .navItem:nth-child(6) {transition-delay: 320ms;}
+    </style>
+    <style id="webBodyBackgroundStyle">
+        #webBodyBackground{background:linear-gradient(463deg, rgba(244, 90, 143, 1) 14.035087719298245%,rgba(0, 161, 208, 1) 100%);}
+        #webContainerBox{background:none;}
+        #g_web{background:none;}
+    </style>
+    <style id='mobiCubeStyleModule'>
+    </style>
+    <style id='mobiSearchStyleModule'>
+    </style>
+    <style type="text/css">.webCustomerServiceBox{display:none;}</style><style id='mobiFloatBtnCss'>
+    .form .floatBtnStyle0 .middle{background-color:#4664c7;}
+    .form .floatBtnStyle1 .middle{background-color:#4664c7;}
+    .form .floatBtnStyle2 .middle{border-color:#4664c7;color:#4664c7;}
+    .form .floatBtnStyle5 .middle{border-color:#4664c7;color:#4664c7;}
+    .form .floatBtnStyle7 .middle{border-color:#4664c7;color:#4664c7;}
+    .form .floatBtnStyle3 .middle{background:-moz-linear-gradient(bottom, #4664c7 10%,rgba(162,177,227,1));background:-webkit-linear-gradient(bottom, #4664c7 10%,rgba(162,177,227,1));}
+    .form .floatBtnStyle4 .middle{background:-moz-linear-gradient(bottom, #4664c7 10%,rgba(162,177,227,1));background:-webkit-linear-gradient(bottom, #4664c7 10%,rgba(162,177,227,1));border-color:#4664c7;}
+</style>
+    <style id='mobiBackTopBtnCss'>
+        .backTop .backTop_icon.icon-backTop0{background-color:#4664c7;color:#fff;}
+        .backTop .backTop_icon.icon-backTop1{background-color:#fff;color:#4664c7;}
+        .backTop .backTop_icon.icon-backTop2{background-color:#fff;color:#4664c7;border-color:#4664c7;}
+    </style>
+    <style id='mobiProductGroupCss'>
+        .jz_vertical_group_has_product .first_groupitem.selected .first_groupname, .jz_landscape_group_has_product .first_groupitem.selected .first_groupname, .jz_landscape_group_has_photo .first_groupitem.selected .first_groupname, .jz_vertical_group_has_photo .first_groupitem.selected .first_groupname {color:#4664c7;}
+        .jz_landscape_group_has_product .first_groupitem.selected:after, .jz_landscape_group_has_photo .first_groupitem.selected:after{position: absolute;left: 0; bottom: 0px; content: ''; width: 100%; height: .1rem; border-radius: .5rem; background-color:#4664c7;}
+        .jz_vertical_group_has_product .first_panel .mall_cart, .jz_landscape_group_has_product .first_panel .mall_cart{background-color:#4664c7;}
+    </style>
+    <style id='fixedAreaBoxStyle'>
+        .webFooterBox .ui-calendar-calendar .ui-state-active{background-color:#4664c7;}
+        .webFooterBox .ui-calendar-calendar .ui-calendar-startDate{background-color:#4664c7;}
+        .webFooterBox .ui-calendar-prev:after{color:#4664c7;}
+        .webFooterBox .ui-calendar-next:after{color:#4664c7;}
+        .webFooterBox .fk-calendarNav{background-color:#4664c7;}
+    </style>
+    <style id='specialModuleStyle'>
+    </style>
+    <style type='text/css' id='independentColStyle'>
+    </style>
+    <style id='otherStyle'>
+    </style>
+    <style id="popupZoneStyle"></style>
+    <link rel="stylesheet" type="text/css" href="//mo.faisys.com/css/comm/photoswipe4v.min.css?v=201905081359"/>
+    <script type="text/javascript">
+        (function() {
+            var fs = document.createElement("script");
+            fs.src = "//fe.faisys.com/jssdk_1_1/js/hawkEye.min.js?v=202007060958";
+            window.FAI_HAWK_EYE = {};
+            window.FAI_HAWK_EYE.jssdk_report_url = "//report.fkw.com/js/report";
+            window.FAI_HAWK_EYE.jssdk_appid = 3003;
+            window.FAI_HAWK_EYE.fai_is_oem = 0;
+            window.FAI_HAWK_EYE.fai_aid = 14812717;
+            window.FAI_HAWK_EYE.fai_bs_aid = 14812717;
+            window.FAI_HAWK_EYE.fai_bs_id = 0;
+            window.FAI_HAWK_EYE.fai_bs_wid = 0;
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(fs, s);
+        })();</script>
+
+    <script type="text/javascript">
+        try {
+            var _htmlFontSize = (function(){
+                var clientWidth = document.documentElement ? document.documentElement.clientWidth : document.body.clientWidth;
+                if(clientWidth > 768 && clientWidth < 1280){
+                    clientWidth = 768;
+                }else if(clientWidth >= 1280){
+                    clientWidth = 512;
+                }
+                document.documentElement.style.fontSize = clientWidth * 1/16 +"px";
+                return clientWidth * 1/16;
+            })();
+            window.FAI_HAWK_EYE && (window.FAI_HAWK_EYE.js_err_filter = function() {
+                var event = arguments[4];
+
+                if (event && event.innerError) {
+                    return true;
+                }
+
+                var url = arguments[1];
+
+                if (url && ['mo.faisys.com/js', 'fe.faisys.com'].some(function (item) {
+                    return url.indexOf(item) !== -1;
+                })){
+                    return true;
+                };
+                return false;
+            });
+        } catch (e) {
+            e.innerError = true;
+            throw(e);
+        }
+    </script>
+    <script type="text/javascript" charset="utf-8" src="//mo.faisys.com/js/comm/photoswipe4v.min.js?v=201905081359" defer="defer"></script>
+    <script type="text/javascript" charset="utf-8" src="//mo.faisys.com/js/jzUtils.min.js?v=202007291702"></script>
+
+</head>
+<body faiscoMobi="true" id="g_body" class="g_locale2052 mobiCol3" _themecolor="#4664c7">
+<script type='text/javascript' src="//mo.faisys.com/js/svg.min.js?v=202007291702"></script>
+
+<div id='fk-limtUv' class='fk-limtUv'> </div>
+<div class="visualArea_leftTop"></div>
+<div class="webLeft"></div>
+<div id="g_web" class="g_web jz_oldTheme jz_otherTheme jz_theme_348 jz_themePresetIndex_0">
+    <div id='allmap'></div>
+    <div id="webLoading" class="loading" style='display:none;'>
+        <div id="splashscreen" class='splashscreen ui-loader'>
+            <span class='ui-icon ui-icon-loading spin'></span>
+        </div>
+    </div>
+    <div id="webTopBox" class="webTopBox ">
+        <div id="webTop" class="webTop">
+            <div id="J_navExpandAnimate" class="jz_navExpendAnimate"></div>
+            <div id='navbar' class='navbar navBaseIcon' _arrowOpen=false >
+                <div id='navbarList' class='navbarList  '  ><div id='itemSep_3' class='itemSep'></div><div id='navItem_3' class='navItem navItem_3 itemSelected icon-navItem'><a href='/' _colid='3' id='navbar_3'><span class='navItemIcon icon-navItemIcon J_fontIcon'></span><span class='nameWrap'><span class='navItemName'><span>首页</span></span></span><span class='icon-subNav'></span></a></div><div id='itemSep_7' class='itemSep'></div><div id='navItem_7' class='navItem navItem_7  icon-navItem'><a href='/nr.jsp' _colid='7' id='navbar_7'><span class='navItemIcon icon-navItemIcon J_fontIcon'></span><span class='nameWrap'><span class='navItemName'><span>动态</span></span></span><span class='icon-subNav'></span></a></div><div id='itemSep_9' class='itemSep'></div><div id='navItem_9' class='navItem navItem_9  icon-navItem'><a href='/mb.jsp' _colid='9' id='navbar_9'><span class='navItemIcon icon-navItemIcon J_fontIcon'></span><span class='nameWrap'><span class='navItemName'><span>留言板</span></span></span><span class='icon-subNav'></span></a></div></div><div class='navTouchLeft'></div><div class='navTouchRight'></div><div class='navLeft icon-navLeft'></div><div class='navRight icon-navRight'></div><div class='jz_subMenuSeoGhost'></div></div>
+        </div>
+    </div>
+    <div id="webHeaderBox" class="webHeaderBox ">
+        <span hideFileUrl='//14812717.s21i.faiusr.com/4/ABUIABAEGAAgwYub7gUosbvBnAMwMjgy.png' style='display:hidden;'></span><div class='navButton' id='navButton'><div class='navButtonPanel'></div><div class='menuNav'><div class='menuNavTip icon-menuNavTip'></div></div></div><div id='headerWhiteBg' class='headerSiteMaskWhiteBg'></div><div id='headerBg' class='headerSiteMaskBg'></div><div id='webHeader' class='webHeader webHeaderBg ' style='background:linear-gradient(384deg, rgba(244, 90, 143, 1) 14.035087719298245%,rgba(0, 161, 208, 1) 100%);'><div id='header' class='header-forLogo header ' style='text-align:center;'><span class='pageTitle' id='pageTitle' ><h1 style=' font-weight: normal; font-size: inherit; display: inline-block; width: 100%; overflow: hidden; text-overflow: ellipsis;'><a href='/' style='color:inherit;' >1903班务栏</a></h1></span><span class='pageLogo   right' style='visibility:hidden;' id='pageLogo' sid='0' pw='50' ph='50'><a href='javascript:Mobi._popupZone.open(338);'><div id='pageLogoImg' class='J_logoImg logoImg ' style='background-image:url(//14812717.s21i.faiusr.com/4/ABUIABAEGAAgwYub7gUosbvBnAMwMjgy.png);background-size: contain;background-position: center;background-repeat: no-repeat;'></div></a></span></div></div></div>
+    <div id="webBannerBox" class="webBannerBox ">
+        <div id='webBanner' style='display: none;' class='webBanner hiddenDefaultBanner'>	<div style='z-index: 2;' class='pageLoading J_pageLoading'>		<div class='fk-circle'>			<div class='fk-circle1 fk-child'></div>			<div class='fk-circle2 fk-child'></div>			<div class='fk-circle3 fk-child'></div>			<div class='fk-circle4 fk-child'></div>			<div class='fk-circle5 fk-child'></div>			<div class='fk-circle6 fk-child'></div>			<div class='fk-circle7 fk-child'></div>			<div class='fk-circle8 fk-child'></div>			<div class='fk-circle9 fk-child'></div>		</div>	</div><div id='bannerSwipe' class='swipe'><div id='bannerSwipeContainer' class='bannerSwipeContainer defaultBanner'><div id='bannerItemAD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI'><a  href="javascript:;" src-original='//8126010.s61i.faiusr.com/2/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI!900x900.jpg' vheight='300' vwidth='640' class='J_img_lazyload bannerImageDiv customBanner' style='display:block;background-image:url(//mo.faisys.com/image/loading/transparent.png);'></a></div></div><div id='bannerBullet' class='bannerBullet'><ul id='bullets' class='bullets'></ul></div></div></div>
+    </div>
+    <div id="webContainerBox" class="webContainerBox" style="overflow:visible;">
+        <div id="webModuleContainer" class="webModuleContainer">
+            <div id="module342" _moduleStyle="16" _autoHeight="0" _height="38" _autoWidth="1" _width="0" _inPopupZone="0" _inTab="0" _inFold="0" _infloatzone="0" _bHeight="0" _headerHiden="" data-server-rendered="true" class="form Handle module342 formStyle16 animateModule"><div _bannerAutoHeight="1" class="formBannerTitle formBannerTitle342"><div class="titleLeft titleLeft342"></div> <div class="clearFix titleCenter titleCenter342"><div class="titleText titleText342"><div class="titleTextIcon icon-titleText"> </div> <div class="textContent"><span>滚动公告</span> <div class="textContentSubTitle">副标题</div></div></div> <div class="formBannerMore formBannerMore342"><!----></div> <!----></div> <div class="titleRight titleRight342"></div></div> <div class="formMiddle formMiddle342"><div class="middleLeft middleLeft342"></div> <div class="middleCenter middleCenter342"><div _innerType="0" class="formMiddleContent moduleContent formMiddleContent342"><div class="module_content"><div id="noticeContainer342" class="noticeContainer"><!----> <!----> <!----> <!----> <!----> <!----> <div id="noticeMarquee342" class="noticeMarquee" style="position:relative;"><div class="noticeMarqueeDiv"><div class="noticeMarqueeRow"><span> </span> <span nowrap="nowrap" class="g_notice_text">本站内容每周不定期更新。</span> <!----> <span> </span></div></div></div></div></div></div></div> <div class="middleRight middleRight342"></div></div> <!----></div>
+            <div id="module330" _moduleStyle="16" _autoHeight="1" _height="0" _autoWidth="1" _width="0" _inPopupZone="0" _inTab="0" _inFold="0" _infloatzone="0" _bHeight="0" _headerHiden="" data-server-rendered="true" class="form Handle module330 formStyle16 animateModule"><div _bannerAutoHeight="1" class="formBannerTitle formBannerTitle330"><div class="titleLeft titleLeft330"></div> <div class="clearFix titleCenter titleCenter330"><div class="titleText titleText330"><div class="titleTextIcon icon-titleText"> </div> <div class="textContent"><span></span> <div class="textContentSubTitle">副标题</div></div></div> <div class="formBannerMore formBannerMore330"><!----></div> <!----></div> <div class="titleRight titleRight330"></div></div> <div class="formMiddle formMiddle330"><div class="middleLeft middleLeft330"></div> <div class="middleCenter middleCenter330"><div _innerType="0" class="formMiddleContent moduleContent formMiddleContent330"><div class="module_content"><div id="noticeContainer330" class="noticeContainer notice-ico"><!----> <div class="noticeNewStyleIconClass icon-noticeNewStyleIconClass-6 g_main_bgColor_v3" style="background-color:rgba(50,133,255,1);"></div> <!----> <!----> <!----> <!----> <div id="noticeMarquee330" class="noticeMarqueeUD"><ul id="noticeScrollbar330" class="noticeScrollbar"><a style="text-decoration:none;"> </a> 					<li class="scrollbarLi"><p class="noticeNewStyleContentText twoNoticeContentText mode1first g_notice_text"><span class="listStyleCircle"></span>家长会顺利召开完毕									</p> <!----> <!----> <!----><!----> <!----> <!----> <a hidefocus="true" href="nd.jsp?id=7" target="_self" rel="" class="noticeNewStyleContentText twoNoticeContentText mode0sec g_notice_link"><span class="listStyleCircle"></span>文理分科建议									</a></li></ul></div></div></div></div></div> <div class="middleRight middleRight330"></div></div> <!----></div>
+            <div id="module302" _moduleStyle="6" _autoHeight="1" _height="0" _autoWidth="1" _width="0" _inPopupZone="0" _inTab="0" _inFold="0" _infloatzone="0" _bHeight="0" _headerHiden="" data-server-rendered="true" class="form Handle module302 formStyle6 animateModule"><div _bannerAutoHeight="1" class="formBannerTitle formBannerTitle302"><div class="titleLeft titleLeft302"></div> <div class="clearFix titleCenter titleCenter302"><div class="titleText titleText302"><div class="titleTextIcon icon-titleText"> </div> <div class="textContent"><span>最新通知</span> <div class="textContentSubTitle">副标题</div></div></div> <div class="formBannerMore formBannerMore302"><a href="nr.jsp?moduleId=302" rel="" class="titleMoreLink titleMoreLink302"><span class="titleMoreIcon icon-titleMore titleMoreIcon302">                                                     </span> <span class="titleMore titleMore302">更多</span> <!----></a></div> <!----></div> <div class="titleRight titleRight302"></div></div> <div class="formMiddle formMiddle302"><div class="middleLeft middleLeft302"></div> <div class="middleCenter middleCenter302"><div _innerType="0" class="formMiddleContent moduleContent formMiddleContent302"><div class="module_content"><div class="news_list_wrap"><div id="newsList302" class="newsList newsList5"><div id="J_newsListPanel302" picNum="5" class="J_newsListPanel f-cardGraphicNews"><div picNum="5" class="J_newsListSlidePanel f-cardGraphicNewsSlide"><div><div topClassName="top1" topSwitch="on" newsId="7" newsName="高一文理分科指导" id="newsLine7" class="wWLine J_cardGraphicNewsStyle cardGraphicNewsStyle newsLine J_picNum"><div id="lineBody7" class="lineBody"><a hidefocus="true" href="nd.jsp?mid=302&amp;id=7&amp;groupId=0" target="_self" class="J_mixNewsStyleImgBox5_link f_mixNewsStyleImgBox5_link picRadiusClass"><div class="mixNewsStyleImgBox5  transparent"><div><div id="newsTitlePic7" alt="文章封面图" src-original="//1.s140i.faiusr.com/2/AIwBCAAQAhgAIIrLi9cFKMC5rL8FMIAPOIAK!640x640.jpg" class="picScaleClass J_img_lazyload newsTitlePic picRadiusClass" style="background:url(//mo.faisys.com/image/loading/transparent.png) no-repeat center /cover;"></div> <div class="J_mixNewsStyleTitleContainer5 mixNewsStyleTitleContainer5"><div class="g_news_title news_title newTitle justifyTextAlign  mixNewsStyleTitle1  defaultDescriptionLine"><div></div><!---->高一文理分科指导</div> <div class="separatorLine"></div> <div class="mixNewsStyleSummary g_news_abstract justifyTextAlign ">文理分科是高中生第一次重要的选择，分文理也是很多家长艰难的选择。</div> <!----> <div class="newsElementsPanel g_newsElementsPanel J_newsElementsPanel g_newsInfo justifyTextAlign "><!----> <!----> <!----> <!----> <div class="ne_newsTime g_newsInfo">2019/11/17</div></div></div></div></div></a></div></div><div topClassName="top1" topSwitch="on" newsId="6" newsName="家长会的通知" id="newsLine6" class="wWLine J_cardGraphicNewsStyle cardGraphicNewsStyle newsLine J_picNum"><div id="lineBody6" class="lineBody"><a hidefocus="true" href="nd.jsp?mid=302&amp;id=6&amp;groupId=0" target="_self" class="J_mixNewsStyleImgBox5_link f_mixNewsStyleImgBox5_link picRadiusClass"><div class="mixNewsStyleImgBox5  transparent"><div><div id="newsTitlePic6" alt="文章封面图" src-original="//1.s140i.faiusr.com/2/AIwBCAAQAhgAIICQ6dcFKM217n0wgA840wk!640x640.jpg" class="picScaleClass J_img_lazyload newsTitlePic picRadiusClass" style="background:url(//mo.faisys.com/image/loading/transparent.png) no-repeat center /cover;"></div> <div class="J_mixNewsStyleTitleContainer5 mixNewsStyleTitleContainer5"><div class="g_news_title news_title newTitle justifyTextAlign  mixNewsStyleTitle1  defaultDescriptionLine"><div></div><!---->家长会的通知</div> <div class="separatorLine"></div> <div class="mixNewsStyleSummary g_news_abstract justifyTextAlign ">经研究决定，拟定于2019年11月16日(星期六)上午10: 00召开家长会。</div> <!----> <div class="newsElementsPanel g_newsElementsPanel J_newsElementsPanel g_newsInfo justifyTextAlign "><!----> <!----> <!----> <!----> <div class="ne_newsTime g_newsInfo">2019/11/09</div></div></div></div></div></a></div></div></div></div></div></div> <!----></div></div></div></div> <div class="middleRight middleRight302"></div></div> <!----></div>
+            <div id="module314" _moduleStyle="51" _autoHeight="0" _height="110" _autoWidth="1" _width="0" _inPopupZone="0" _inTab="0" _inFold="0" _infloatzone="0" _bHeight="0" _headerHiden="" data-server-rendered="true" class="form Handle module314 formStyle51"><div _bannerAutoHeight="1" class="formBannerTitle formBannerTitle314"><div class="titleLeft titleLeft314"></div> <div class="clearFix titleCenter titleCenter314"><div class="titleText titleText314"><div class="titleTextIcon icon-titleText"> </div> <div class="textContent"><span>段考成绩查询入口</span> <div class="textContentSubTitle">副标题</div></div></div> <div class="formBannerMore formBannerMore314"><!----></div> <!----></div> <div class="titleRight titleRight314"></div></div> <div class="formMiddle formMiddle314"><div class="middleLeft middleLeft314"></div> <div class="middleCenter middleCenter314"><div _innerType="0" class="formMiddleContent moduleContent formMiddleContent314"><div class="module_content"><div class="J_packModule fk-formPack"><div id="fk-packContent314" class="J_packContentList f-packContentList" style="height:Infinityrem;"><div class="J_packContentBg f-packContentBg f-packContentBg314"></div> <div class="J_packEditBtn f-packEditBtn" style="display:none;"><div class="J_addContent f-addContent"><div _id="314" class="addBtn_Icon"></div> <div class="f-addText"><span>目前自由容器仅支持放置常用模块</span></div></div></div> <div id="formPackContent314" class="J_formPackContent f-formPackContent"><div id="module316" _moduleStyle="53" _autoHeight="0" _height="58" _autoWidth="0" _width="199" _inpack="314" _inPopupZone="0" _inTab="0" _inFold="0" _infloatzone="0" _bHeight="0" _headerHiden="1" data-server-rendered="true" class="form Handle module316 formStyle53 animateModule" style="position:absolute;left:3.105121293800539rem;top:0.3018867924528302rem;width:8.582210242587601rem;height:2.501347708894879rem;"><!----> <div class="formMiddle formMiddle316"><div class="middleLeft middleLeft316"></div> <div class="middleCenter middleCenter316"><div _innerType="0" class="formMiddleContent moduleContent formMiddleContent316"><div class="module_content"><div class="fk-floatImgContainer J_floatImgContainer"><a hidefocus="true" href="https://hfs.yunxiao.com" rel="" class="J_floatImg_jump floatImgALink"><div data-picid="ABUIABAEGAAgt5ub7gUooJm6hQUwYzgd" class="floatImgWrap J_floatImgWrap" style="opacity:1;"><img src="//mo.faisys.com/image/loading/transparent.png" src-original="//14812717.s21i.faiusr.com/4/ABUIABAEGAAgt5ub7gUooJm6hQUwYzgd!1500x1500.png" usemap="#hotAreaMap316" alt="ABUIABAEGAAgt5ub7gUooJm6hQUwYzgd" class="fade-in-for-lazyload J_img_lazyload float_img J_float_img J_photo" style="width:8.582210242587601rem;height:2.501347708894879rem;"> <!----></div></a></div></div></div></div> <div class="middleRight middleRight316"></div></div> <!----></div></div></div></div></div></div></div> <div class="middleRight middleRight314"></div></div> <!----></div>
+            <div id="module335" _moduleStyle="33" _autoHeight="1" _height="0" _autoWidth="1" _width="0" _inPopupZone="0" _inTab="0" _inFold="0" _infloatzone="0" _bHeight="0" _headerHiden="" data-server-rendered="true" class="form Handle module335 formStyle33 animateModule"><div _bannerAutoHeight="1" class="formBannerTitle formBannerTitle335"><div class="titleLeft titleLeft335"></div> <div class="clearFix titleCenter titleCenter335"><div class="titleText titleText335"><div class="titleTextIcon icon-titleText"> </div> <div class="textContent"><span>文件下载</span> <div class="textContentSubTitle">副标题</div></div></div> <div class="formBannerMore formBannerMore335"><!----></div> <!----></div> <div class="titleRight titleRight335"></div></div> <div class="formMiddle formMiddle335"><div class="middleLeft middleLeft335"></div> <div class="middleCenter middleCenter335"><div _innerType="0" class="formMiddleContent moduleContent formMiddleContent335"><div class="module_content"><div class="fileDownloadPanel"><div class="fileDownloadPanel newFileDownloadPanel"><div class="mainBodyContainer tableBox"><div class="fileImg tableCell"><svg role="img" class="fileSvgClass jzm-v15"><use fill="#fff" xlink:href="#jzm-v15" style="color:#4E99FF;"></use></svg></div> <div class="fileName tableCell"><div title="文理选课宣传栏资料.docx" class="fileNameText fileNameWrap g_file_name">文理选课宣传栏资料.docx</div> <div class="fileSize g_file_size">19.06KB</div></div> <div class="fileOperate tableCell"><a id="m335i0" target="_blank" href="http://14812717.s21d-14.faiusrd.com/0/ABUIABBBGAAgp-PC7gUoxLXx6gY?f=%E6%96%87%E7%90%86%E9%80%89%E8%AF%BE%E5%AE%A3%E4%BC%A0%E6%A0%8F%E8%B5%84%E6%96%99.docx&amp;v=1573960103" class="fileDownload335"><svg role="img" class="jzm-v16 downloadSvg"><use xlink:href="#jzm-v16" style="fill:#666666;"></use></svg></a></div></div><div class="mainBodyContainer tableBox"><div class="fileImg tableCell"><svg role="img" class="fileSvgClass jzm-v15"><use fill="#fff" xlink:href="#jzm-v15" style="color:#4E99FF;"></use></svg></div> <div class="fileName tableCell"><div title="word的基本知识点.doc" class="fileNameText fileNameWrap g_file_name">word的基本知识点.doc</div> <div class="fileSize g_file_size">50.50KB</div></div> <div class="fileOperate tableCell"><a id="m335i1" target="_blank" href="http://14812717.s21d-14.faiusrd.com/0/ABUIABBAGAAg5rqb7gUokPuaWA?f=word%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86%E7%82%B9.doc&amp;v=1573313894" class="fileDownload335"><svg role="img" class="jzm-v16 downloadSvg"><use xlink:href="#jzm-v16" style="fill:#666666;"></use></svg></a></div></div><div class="mainBodyContainer tableBox"><div class="fileImg tableCell"><svg role="img" class="fileSvgClass jzm-v15"><use fill="#fff" xlink:href="#jzm-v15" style="color:#4E99FF;"></use></svg></div> <div class="fileName tableCell"><div title="电子表格的基本知识点.doc" class="fileNameText fileNameWrap g_file_name">电子表格的基本知识点.doc</div> <div class="fileSize g_file_size">49.00KB</div></div> <div class="fileOperate tableCell"><a id="m335i2" target="_blank" href="http://14812717.s21d-14.faiusrd.com/0/ABUIABBAGAAgj7ub7gUozM7rtAQ?f=%E7%94%B5%E5%AD%90%E8%A1%A8%E6%A0%BC%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86%E7%82%B9.doc&amp;v=1573313935" class="fileDownload335"><svg role="img" class="jzm-v16 downloadSvg"><use xlink:href="#jzm-v16" style="fill:#666666;"></use></svg></a></div></div> <!----></div></div></div></div></div> <div class="middleRight middleRight335"></div></div> <!----></div>
+            <div id="module360" _moduleStyle="51" _autoHeight="0" _height="144" _autoWidth="1" _width="0" _inPopupZone="0" _inTab="0" _inFold="0" _infloatzone="0" _bHeight="0" _headerHiden="" data-server-rendered="true" class="form Handle module360 formStyle51"><div _bannerAutoHeight="1" class="formBannerTitle formBannerTitle360"><div class="titleLeft titleLeft360"></div> <div class="clearFix titleCenter titleCenter360"><div class="titleText titleText360"><div class="titleTextIcon icon-titleText"> </div> <div class="textContent"><span>自由容器</span> <div class="textContentSubTitle">副标题</div></div></div> <div class="formBannerMore formBannerMore360"><!----></div> <!----></div> <div class="titleRight titleRight360"></div></div> <div class="formMiddle formMiddle360"><div class="middleLeft middleLeft360"></div> <div class="middleCenter middleCenter360"><div _innerType="0" class="formMiddleContent moduleContent formMiddleContent360"><div class="module_content"><div class="J_packModule fk-formPack"><div id="fk-packContent360" class="J_packContentList f-packContentList" style="height:Infinityrem;"><div class="J_packContentBg f-packContentBg f-packContentBg360"></div> <div class="J_packEditBtn f-packEditBtn" style="display:none;"><div class="J_addContent f-addContent"><div _id="360" class="addBtn_Icon"></div> <div class="f-addText"><span>目前自由容器仅支持放置常用模块</span></div></div></div> <div id="formPackContent360" class="J_formPackContent f-formPackContent"><div id="module359" _moduleStyle="53" _autoHeight="0" _height="139" _autoWidth="0" _width="347" _inpack="360" _inPopupZone="0" _inTab="0" _inFold="0" _infloatzone="0" _bHeight="0" _headerHiden="1" data-server-rendered="true" class="form Handle module359 formStyle53 animateModule" style="position:absolute;left:0.0862533692722372rem;top:0.0431266846361186rem;width:14.964959568733153rem;height:5.994609164420485rem;"><!----> <div class="formMiddle formMiddle359"><div class="middleLeft middleLeft359"></div> <div class="middleCenter middleCenter359"><div _innerType="0" class="formMiddleContent moduleContent formMiddleContent359"><div class="module_content"><div class="fk-floatImgContainer J_floatImgContainer"><a hidefocus="true" href="javascript:void(0);" rel="" class="J_floatImg_jump floatImgALink"><div data-picid="ABUIABAEGAAghNye7gUorovTlQIw0AU4rAI" class="floatImgWrap J_floatImgWrap" style="opacity:1;"><img src="//mo.faisys.com/image/loading/transparent.png" src-original="//14812717.s21i.faiusr.com/4/ABUIABAEGAAghNye7gUorovTlQIw0AU4rAI!1500x1500.png" usemap="#hotAreaMap359" alt="ABUIABAEGAAghNye7gUorovTlQIw0AU4rAI" class="fade-in-for-lazyload J_img_lazyload float_img J_float_img J_photo" style="width:14.964959568733153rem;height:5.994609164420485rem;"> <map name="hotAreaMap359" id="hotAreaMap359"><area shape="rect" hidefocus="true" onfocus="this.blur()" coords="0,0,0,0" href="https://pan.baidu.com/s/1iaXg0dfYGQWti4O_yuKMew" title="https://pan.baidu.com/s/1iaXg0dfYGQWti4O_yuKMew"><area shape="rect" hidefocus="true" onfocus="this.blur()" coords="0,0,0,0" href="https://pan.baidu.com/s/1iaXg0dfYGQWti4O_yuKMew" title="https://pan.baidu.com/s/1iaXg0dfYGQWti4O_yuKMew"></map></div></a></div></div></div></div> <div class="middleRight middleRight359"></div></div> <!----></div></div></div></div></div></div></div> <div class="middleRight middleRight360"></div></div> <!----></div>
+            <div id="bookingPanelTriggle"></div>
+        </div>
+    </div>
+    <div id="webFooterBox" class="webFooterBox ">
+        <div id='webFooter' class='webFooter'>
+            <div id='footer'  class='footer mallThemeFooter'><div class='technical'><div class='technicalSupport footerInfo J_footerInfo' style='display:block'><p style="text-align:center;"><span style="color:#F45A8D;font-family:FangSong_GB2312, 仿宋;"><span style="color:#F45A8D;font-family:黑体, SimHei;">©2019 </span><a href="https://space.bilibili.com/32895273" astyle_h="1" _t="103" _i="AGcI/////w8SI2h0dHBzOi8vc3BhY2UuYmlsaWJpbGkuY29tLzMyODk1Mjcz" _n="https://space.bilibili.com/32895273" target="_self"><strong><span style="color:#00A1D6;font-family:黑体, SimHei;">PG小莱</span></strong></a><span style="color:#F45A8D;font-family:FangSong_GB2312, 仿宋;"></span><span style="color:#F45A8D;font-family:FangSong_GB2312, 仿宋;"></span> <span style="color:#F45A8D;font-family:黑体, SimHei;">版权所有<span style="color:#f45a8d;font-family:黑体, simhei;font-size:0.6037735849056604rem"></span></span></span></p></div><div class='technicalSupport'><a href='http://jzm.fkw.com/?_ta=2508'  class='J_supportLink'  target='_blank' hidefocus='true'>本站使用&nbsp;<span class='faisco-icons-logo'></span>凡科建站&nbsp;搭建</a><span class='footerSep PcVer'>|</span><a class='rep PcVer' href='http://m.fkw.com/ts.jsp?acct=xr14183784'  target='_blank' hidefocus='true'>举报</a></div></div></div>
+        </div>
+        <style id='mobiStyleService' type='text/css'>
+            .open .serviceNavItem:nth-child(2) {transition-delay: 160ms;}
+            #svebar_4 .icon-serItemIcon:before{content:'\e6b2';content:'\e6b2';}
+            #svebar_4 .icon-serItemIcon{background-image:none;}
+        </style>
+        <div id='webCustomerServiceBox' class='webCustomerServiceBox' style='display:none;'><div id='fixedWrap'><div class='customerServiceDiv' id='customerServiceDiv'></div></div></div>
+        <div class='webMapServiceBox fk-webMapServiceBox' id='webMapServiceBox'><div style='display:table;height:100%;width:100%;border-collapse: collapse;'><div style='display:table-row;'><div style='display:table-cell;'><div class='webMapHeader webHeaderBg g_main_bgColor_v3'><div class='g_close icon-gClose' onclick='Mobi.closeMapService()'></div></div></div></div><div style='height:100%;width:100%;display:table-row;'><div class='f-webMapIframeWrap ios-scroll'><iframe id='mobiSearchMapFrame' frameborder='0' width='100%' height='100%' scrolling='auto'></iframe></div></div></div></div>
+        <div id="fullScreenDivCotainer" class='fullScreenDivCotainer'></div>
+    </div>
+    <div id="J_newGuestGiftBtn"></div>
+    <div class="u_area_box_wrap J_area_box_wrap">
+        <div id="fixedAreaBox" class="fixedAreaBox fixedAreaBox348_0" tplid="348_0">
+        </div>
+    </div>
+    <div class="webBackgroundBox ">
+        <div id="webBodyBackground" class="webBackground  webBackgroundFix"></div>
+        <div id='navExistOffPanel' class='navExistOffPanel'></div>
+    </div>
+    <div id="J_newGuestGiftPage"></div>
+
+
+    <div class="fk_mobiCornerAd_wrap">
+        <div id="mobiCornerAd" class="fk_mobiCornerAd">
+            <a href="https://jzm.fkw.com/pro8.html?_ta=2508" class="fk_mobiCornerAd_link J_link">
+                <img class="fk_mobiCornerAd_img" src="//mo.faisys.com/image/mobiAdvert/mfjz.png" alt="">
+            </a>
+            <div class="fk_mobiCornerAd_close J_close">
+                <img class="fk_mobiCornerAd_close_img" src="//mo.faisys.com/image/mobiAdvert/mfkz-close.png" alt="">
+            </div>
+        </div>
+    </div>
+
+</div>
+<div id="J_paymentGiftPage"></div>
+<div class="webRight"></div>
+<div class="visualArea_rightBottom"></div>
+<script type="text/javascript">
+    try {
+        if( !false && window.top !== window.self){
+            var g_className = document.getElementById("g_body").className;
+            document.getElementById("g_body").className = g_className + " ";
+        }
+
+        var _oem = false;
+
+        var g_webWidth = 0;
+        if(g_webWidth == 0){
+            g_webWidth = window.localStorage ? localStorage.getItem("g_webWidth"): Cookie.read("g_webWidth");
+            if(g_webWidth != null){
+                document.getElementById("g_web").style.width = g_webWidth + "px";
+            }
+        } else {
+            document.getElementById("g_web").style.width = g_webWidth + "px";
+            if (window.localStorage) {
+                localStorage.setItem("g_webWidth", g_webWidth);
+            } else {
+                Cookie.write("g_webWidth", g_webWidth);
+            }
+        }
+
+        if (typeof Fai == 'undefined') {
+            Fai = {};
+            Fai.top = window;
+
+        }
+
+        Fai.top.oemCloseDesign = false;
+        Fai.top.closeSiteDesign = true;
+        Fai.top._onlyHasBannerEditAuth = false;
+        Fai.top._openMsgSearch = true;
+        Fai.top.pageName = "首页";
+        Fai.top.isNeed = true;
+        Fai.top.businessId = 2;
+        Fai.top.sceneId104 = 104;
+        Fai.top.sceneId105 = 105;
+        Fai.top.sceneId107 = 107;
+        Fai.top.siteHost = "xr14183784.jz.fkw.com";
+        Fai.top.mallGuidePopJsPath = "//1.ss.faisys.com/js/mallGuidePopRef.min.js"
+        Fai.top.checkUPlanAcct = false;
+        Fai.top.banCopyTextImg = false;
+        Fai.top._openRemoveUrlArgs = false;
+        Fai.top._openStaticUrl = false;
+        Fai.top._curLanCode = 'cn';
+    } catch (e) {
+        e.innerError = true;
+        throw(e);
+    }
+</script>
+<script type="text/javascript" src="//mo.faisys.com/js/locale/2052.min.js?v=202007291702"></script>
+<script type="text/javascript" charset="utf-8" src="//mo.faisys.com/js/vue_core/polyfill.min.js?v=201808011729"></script>
+<script type="text/javascript" charset="utf-8" src="//mo.faisys.com/js/comm/mobiPolyfill.min.js?v=202004011325"></script>
+<script type="text/javascript" charset="utf-8" src="//mo.faisys.com/js/jqmobi/jqmobi.min.js?v=202001021333"></script>
+<script type="text/javascript" charset="utf-8" src="//mo.faisys.com/js/jqmobi/jqmobi_ui.min.js?v=202006301637"></script>
+<script type="text/javascript" charset="utf-8" src="//mo.faisys.com/js/comm/clipboard/clipboard.min.js?v=201803181542"></script>
+<script type="text/javascript" charset="utf-8" src="//mo.faisys.com/js/comm/monitor.min.js?v=202005271320"></script>
+<script type="text/javascript" charset="utf-8" src="//mo.faisys.com/js/comm/comMethods.min.js?v=202007291702"></script>
+<script id="mobiOperationJS" type="text/javascript" charset="utf-8" src="//mo.faisys.com/js/mobi.min.js?v=202007301640"></script>
+<script type="text/javascript" charset="utf-8" src="//mo.faisys.com/js/moduleAnimation.min.js?v=201912181436"></script>
+<script type='text/javascript' src="//mo.faisys.com/js/vue_core/vue-2.6.10.min.js?v=202001021333"></script>
+<script type="text/javascript" charset="utf-8" src="//mo.faisys.com/js/dist/module.min.js?v=202007291703"></script>
+
+<link href="//fe.faisys.com/faitest_1_4/css/faitest.min.css?v=202004271101" type="text/css" rel="stylesheet">
+<script>window.__FAITEST_ENV__=0;</script>
+<script src="//fe.faisys.com/faitest_1_4/js/faitest.min.js?v=202003311534"></script>
+<script type="text/javascript">
+    try {
+        Fai.top._logined = false;
+        Fai.top._isShowFkAuthTips = false;
+        Fai.top._fkAuth = false;
+        Fai.top._fkAuthTitle = "凡科认证";
+        Fai.top._isPromoter = false;
+        Fai.top._isPromoterPd = false;
+        Fai.top._isFaiHost = true;
+        Fai.top.moduleManageFontSize = {"module342":23.1875,"module330":23.1875,"module302":23.1875,"module314":23.1875,"module316":23.1875,"module335":23.1875,"module360":23.1875,"module359":23.1875}
+        Fai.top.httpStr = "https://";
+        Fai.top.protocalHeader = "https://";
+        Fai.top._siteId = 0;
+        Fai.top._isPromoterOpen = false;
+        Fai.top._openThemeV3 = false;
+        Fai.top._siteType = 1;
+        Fai.top._isMall = false;
+        Fai.top._groupId = -1;
+        Fai.top.isModuleV2Map = {"style_16":true,"style_23":true,"style_13":true,"style_74":true,"style_42":true,"style_75":true,"style_26":true,"style_41":true,"style_40":true,"style_25":true,"style_6":true,"style_64":true,"style_30":true,"style_47":true,"style_50":true,"style_3":true,"style_58":true,"style_22":true,"style_32":true,"style_2":true,"style_33":true,"style_31":true,"style_28":true,"style_34":true,"style_83":true,"style_84":true,"style_89":true,"style_95":true,"style_96":true,"style_52":true,"style_94":true,"style_53":true,"style_51":true,"style_54":true,"style_98":true,"style_99":true,"style_101":true,"style_107":true};
+        Fai.top._mallThemeColor = "";
+        Fai.top._colorFulThemeColor = "";
+        Fai.top._themeColor = "#4664c7";
+        Fai.top._isOpenThemeColor = true;
+        Fai.top._isDev = false
+
+        Fai.top._aid = 14812717;
+        Fai.top._pageId = 3;
+        Fai.top._hasHmBaidu = false;
+        Fai.top._other = {"productNewDeInfo":{"isNewUser":1,"isProductNewDetail":1},"newsNewDefInfo":{"isNewUser":1,"isNewsNewDetail":2},"qrcode_ImageId":"","dc":14,"mobiScreenFull":0,"cml":[],"mc":{"h":true,"c":"","t":1},"hc":{"h":true,"cil":0},"favIcon":{"showType":0,"id":""},"iosIcon":{"showType":0,"id":""},"WXShareIcon":{"showType":0,"id":"","titType":0,"tit":"","cont":"","nt":0,"nd":0,"nc":0,"pdt":0,"pdd":0,"pdc":0,"pgt":0,"pgd":0,"pgc":0},"templateInfo":{"templatePresetIndex":0,"templateDesignType":0},"mobiBgMusic":{"isOpen":0,"id":"","isGlobal":0,"setting":{"isAuto":0,"isLoop":0,"isHidden":0,"position":0},"filePath":""},"mobiMallHidden":0,"mobiServiceOnline":{"sl":[{"serviceType":"0","serviceAccount":"10000","showFont":"QQ客服","showType":true,"isFontIcon":"true","color":"rgb(238, 82, 102)","fileId":"","classname":"faisco-icons-scQq","filePath":""}],"o":false},"tc":{"h":true},"pa":{"st":0,"ap":"","qrp":"","ma":""},"sdss":{"type":0},"hssnt":false,"mobiBackTop":{"isOpen":0,"color":"","style":0},"fpfit":1596176846112};
+        Fai.top._bannerData = {"bn":1,"b":[{"i":"AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI","t":1,"lt":0,"u":"","ide":"","col":0,"du":"//8126010.s61i.faiusr.com/0/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI?f=AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI.jpg&v=","des":"","tp":"//8126010.s61i.faiusr.com/2/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI!100x100.jpg","aj":"","hideImgUrl":"//8126010.s61i.faiusr.com/2/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI.jpg","p":"//8126010.s61i.faiusr.com/2/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI!900x900.jpg","w":640,"h":300}],"c":[{"tp":"//8126010.s61i.faiusr.com/2/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI!100x100.jpg","p":"//8126010.s61i.faiusr.com/2/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI.jpg","i":"AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI","t":1,"w":640,"h":300}],"st":6,"et":1,"sd":0,"showType":0,"h":false};
+        Fai.top._pageBannerData = {"bn":1,"b":[],"st":6,"et":1,"sd":0,"c":[],"showType":0,"h":false};
+        Fai.top._templateBannerData = {"bn":1,"b":[{"i":"AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI","t":1,"lt":0,"u":"","ide":"","col":0,"du":"//8126010.s61i.faiusr.com/0/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI?f=AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI.jpg&v=","des":"","tp":"//8126010.s61i.faiusr.com/2/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI!100x100.jpg","aj":"","hideImgUrl":"//8126010.s61i.faiusr.com/2/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI.jpg","p":"//8126010.s61i.faiusr.com/2/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI!900x900.jpg","w":640,"h":300}],"c":[{"tp":"//8126010.s61i.faiusr.com/2/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI!100x100.jpg","p":"//8126010.s61i.faiusr.com/2/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI.jpg","i":"AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI","t":1,"w":640,"h":300}],"st":6,"et":1,"sd":0,"showType":0,"h":false};
+        Fai.top._isFreeVer = true;
+        Fai.top._resRoot = '//mo.faisys.com';
+        Fai.top._loadingPath = '//mo.faisys.com/image/loading/transparent.png';
+        Fai.top._templateFrameId = 348;
+        Fai.top._templateLayoutId = 2;
+        Fai.top._templatePresetIndex = 0;
+        Fai.top._mobiSiteTitleChanged = 0;
+        Fai.top._mobiSiteTitle = {"fontType":0,"align":2,"font":{"size":12,"family":"","colorType":1,"color":"rgba(255, 255, 255, 1)"},"bgType":"2","bgFont":{"color":"linear-gradient(384deg, rgba(244, 90, 143, 1) 14.035087719298245%,rgba(0, 161, 208, 1) 100%)","alpha":100},"bgImgFileId":"","bgImgStyle":"1","mbt":0,"mbc":{"color":"#000","alpha":100},"mbi":"","mbit":1,"mths":0,"name":"1903班务栏","mhl":0,"mti":0,"mtht":1,"idf":false,"url":"AGQIAxIA","jnf":false,"mbip":"//2.ss.faisys.com/image/no-pic.jpg"};
+        Fai.top._onlineServiceJson = {"phone":{"open":false,"type":1,"fName":"电话咨询","phoneInfo":[{"name":"电话咨询","number":"13800000"}],"typeStr":"phone","baseSetting":{"c":0,"i":0,"id":0,"iconType":0,"colIconType":0,"colIconCusType":0,"classname":"faisco-icons-call1","content":"\\e62c","color":"","iconFileId":""},"cf":true},"sms":{"open":false,"name":"信息咨询","number":"13800000","type":2,"typeStr":"sms","baseSetting":{"c":0,"i":0,"id":0,"iconType":0,"colIconType":0,"colIconCusType":0,"classname":"faisco-icons-mail1","content":"\\e6a0","color":"","iconFileId":""},"cf":true},"map":{"open":false,"name":"在线地图","city":"广东省","mark":"","d_address":"广州市","type":3,"typeStr":"map","baseSetting":{"c":0,"i":0,"id":0,"iconType":0,"colIconType":0,"colIconCusType":0,"classname":"faisco-icons-gps1","content":"\\e67c","color":"","iconFileId":""},"cf":true},"msg":{"open":false,"name":"在线留言","type":4,"typeStr":"msg","baseSetting":{"c":0,"i":0,"id":0,"iconType":0,"colIconType":0,"colIconCusType":0,"classname":"faisco-icons-message1","content":"\\e6b2","color":"","iconFileId":""}},"open":false,"order":[4],"serviceId":{"serviceId":6},"baiduBridge":{"open":false,"name":"百度商桥","type":-1,"codes":"","baseSetting":{"c":0,"i":0,"id":0,"iconType":0,"colIconType":0,"colIconCusType":0,"classname":"faisco-icons-scBdsq2","content":"\\eada","color":"","iconFileId":"iconFileId"},"typeStr":"baiduBridge"},"weChat":{"open":false,"name":"微信客服","type":-2,"code":"","baseSetting":{"c":0,"i":0,"id":0,"iconType":0,"colIconType":0,"colIconCusType":0,"classname":"faisco-icons-M001038","content":"\\eb25","color":"","iconFileId":""}},"oneKeySharing":{"open":false,"type":1,"shareLinkList":["Weixin","sina_weibo","qq_zone","qq_share","douban","baidu_tieba","copy_url"],"baseSetting":{"c":0,"i":0,"id":0,"iconType":0,"colIconType":0,"colIconCusType":0,"classname":"faisco-icons-call1","content":"\\e62c","color":"","iconFileId":""}},"bg":{"t":0,"c":""},"wordIcon":{"t":0,"c":""},"tcInfo":[{"name":"QQ客服","number":"100001"},{"name":"客服","number":"100002"}]};
+        Fai.top.all_oks_LinkUrl = [{"url":"?","icon":"Weixin"},{"url":"?","icon":"graphic_poster"},{"url":"http://service.weibo.com/share/share.php?title=&nbsp;&url=http://xr14183784.m.icoc.me/&pic=","icon":"sina_weibo"},{"url":"http://connect.qq.com/widget/shareqq/index.html?summary=http%3A%2F%2Fxr14183784.m.icoc.me%2F&url=http://xr14183784.m.icoc.me/&pics=&title=","icon":"qq_share"},{"url":"http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?summary=&nbsp;&url=http://xr14183784.m.icoc.me/&pics=http&title=&nbsp;","icon":"qq_zone"},{"url":"http://shuo.douban.com/!service/share?name=http%3A%2F%2Fxr14183784.m.icoc.me%2F&text=http://xr14183784.m.icoc.me/","icon":"douban"},{"url":"http://tieba.baidu.com/f/commit/share/openShareApi?comment=&url=http://xr14183784.m.icoc.me/&title=http%3A%2F%2Fxr14183784.m.icoc.me%2F","icon":"baidu_tieba"},{"url":"http://xr14183784.m.icoc.me/?","icon":"copy_url"},{"url":"http://www.kaixin001.com/rest/records.php?content=http%3A%2F%2Fxr14183784.m.icoc.me%2F&style=11","icon":"kaixin001"},{"url":"http://www.facebook.com/sharer.php?t=http%3A%2F%2Fxr14183784.m.icoc.me%2F&u=http://xr14183784.m.icoc.me/","icon":"FaceBook"},{"url":"http://twitter.com/intent/tweet?text=http%3A%2F%2Fxr14183784.m.icoc.me%2F","icon":"Twitter"},{"url":"https://www.linkedin.com/shareArticle?summary=http%3A%2F%2Fxr14183784.m.icoc.me%2F&url=http://xr14183784.m.icoc.me/&title=","icon":"LinkedIn"}];
+        Fai.top._openOnlineService = false;
+        Fai.top._manageMode = false;
+        Fai.top.sessionMemberId = 0;
+        Fai.top.memberName = "";
+        Fai.top._colInfo = {"aid":14812717,"wid":0,"id":3,"type":3,"flag":1124224,"banner":{"bn":1,"b":[],"st":6,"et":1,"sd":0,"c":[],"showType":0,"h":false},"moduleList":[342,330,302,314,316,335,360,359],"moduleHidden":[366],"createTime":1505027788000,"updateTime":1574493765000,"authMemberLevelId":0,"extId":0,"backgroundImg":{"type":2,"sysnum":0,"b_color":"linear-gradient(463deg, rgba(244, 90, 143, 1) 14.035087719298245%,rgba(0, 161, 208, 1) 100%)","fileid":""},"other":{"pgt":0,"pgb":{"type":0,"catalogList":[],"s":4},"wxShareIcon":{"tt":0,"dt":0,"it":0,"id":"","tit":"","cont":""},"in":{"isfn":false,"hsifn":false,"n":{},"p":{}},"webShareIcon":"","posterShare":{"type":0,"pId":"","name":"","tip":"长按识别图中二维码"}},"name":"首页","defaultName":"首页","url":"/","valid":true,"baseSetting":{"c":0,"i":0,"iconType":0,"id":0,"content":"","classname":"","color":"","colIconType":0,"colIconCusType":0,"iconFileId":"","jumpCtrl":{"ide":"","columnType":0}},"columnStyle":{"s":2,"arrowOpen":false,"navBtn":{"type":0,"color":"#000000"}},"title":{"fontType":0,"align":0,"font":{"size":12,"family":"","colorType":0,"color":"#000"},"bgType":"0","bgFont":{"color":"#000","alpha":100},"bgImgFileId":"","bgImgStyle":"1","mbt":0,"mhl":0,"mbc":{"color":"#000","alpha":100},"mbi":"","mbit":1,"mti":0,"mths":0,"mtht":1},"logo":{"i":"","h":true,"a":1,"style":0,"marginType":0,"margin":{"top":0,"bottom":0,"left":0,"right":0}},"independent":false,"allowed":true,"selectable":true,"forbid":false};
+        Fai.top._lcid = 2052;
+        Fai.top._siteLcid = 2052;
+        Fai.top._serviceList = [{"serviceType":"0","serviceAccount":"10000","showFont":"QQ客服","showType":true,"isFontIcon":"true","color":"rgb(238,82,102)","fileId":"","classname":"faisco-icons-scQq","filePath":""}];
+        Fai.top._mallService = 0;
+        Fai.top.inTabMaqueeHelper = {};
+        Fai.top._isBUser = true;
+        Fai.top._isMobiMallOpen = false;
+        Fai.top._bookingOpen = false
+        Fai.top._moduleSSRList = [{"id":342,"renderSuccess":true},{"id":330,"renderSuccess":true},{"id":302,"renderSuccess":true},{"id":316,"renderSuccess":true,"inLabelModule":314},{"id":314,"renderSuccess":true},{"id":335,"renderSuccess":true},{"id":359,"renderSuccess":true,"inLabelModule":360},{"id":360,"renderSuccess":true}];
+        Fai.top._productFormOpen = false
+        Fai.top._immediatelyConsultOpen = false
+        Fai.top._newsCommentOpen = false;
+        Fai.top._webDebug = false;
+        Fai.top._jzHomeUrl = 'jz.fkw.com';
+        Fai.top._jzProUrl = '';
+        Fai.top._portalHost = 'adm.webportal.top';
+        Fai.top._homeHost = '';
+        Fai.top._mjzHomeHost = 'jzm.fkw.com';
+        Fai.top._ver = 10;
+        Fai.top.allModule = {};
+        Fai.top.allModuleExample = {};
+        Fai.top._windowLoaded = false;
+        Fai.top._isAimUser = false;
+        Fai.top.isJuly3FreeUser = false;
+        Fai.top._isOpenPhoneSms = false;
+        Fai.top.hdPortalHost = 'hdm.faisco.cn';
+        Fai.top.isOpenHd = true;
+        Fai.top.isPayOverSeven = false;
+        Fai.top.moduleManage = false;
+        Fai.top._isDevDebug = false;
+        Fai.top._jzPayTypeList = [];
+        Fai.top._openWebp = true;
+
+        Fai.top.loginMemberSucJumpUrlIllegality = false;
+        Fai.top._bookingModuleTitle = '在线预约'
+        Mobi.bookingBoxBind(false);
+
+        Fai.top._jzAllSiteDomain = 'i.jz.fkw.com';
+        Fai.top._allSiteMallOemDomain = 'i.mall.vip.webportal.top';
+        Fai.top._oem = false;
+        Fai.top._isFromJzmManage = false;
+        Fai.top._isFromQz = false;
+        Fai.top._resImageRoot = '//mo.faisys.com';
+        Fai.top._wid = 0;
+        Fai.top.isWXAddFansAuthAllow = false;
+        Fai.top.isCalculationQuotationAuthAllow = false;
+
+        Fai.top._jzProUrl = 'jz.fkw.com';
+        Fai.top._portalHost = 'i.fkw.com';
+        Fai.top._homeHost = 'www.fkw.com';
+
+
+
+
+        jzUtils.run({
+            "name": "Pre.errorReport",
+            "base": window
+        });
+
+
+
+
+
+        jm(document).ready(function() {
+            Mobi.fixIosBug()
+            Mobi.initDirective();
+            try {
+                if (!Mobi.bannerAnimate.init({"bn":1,"b":[{"i":"AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI","t":1,"lt":0,"u":"","ide":"","col":0,"du":"//8126010.s61i.faiusr.com/0/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI?f=AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI.jpg&v=","des":"","tp":"//8126010.s61i.faiusr.com/2/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI!100x100.jpg","aj":"","hideImgUrl":"//8126010.s61i.faiusr.com/2/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI.jpg","p":"//8126010.s61i.faiusr.com/2/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI!900x900.jpg","w":640,"h":300}],"c":[{"tp":"//8126010.s61i.faiusr.com/2/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI!100x100.jpg","p":"//8126010.s61i.faiusr.com/2/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI.jpg","i":"AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI","t":1,"w":640,"h":300}],"st":6,"et":1,"sd":0,"showType":0,"h":false})) {
+                    Mobi.initSwipe('bannerSwipe', {"bn":1,"b":[{"i":"AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI","t":1,"lt":0,"u":"","ide":"","col":0,"du":"//8126010.s61i.faiusr.com/0/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI?f=AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI.jpg&v=","des":"","tp":"//8126010.s61i.faiusr.com/2/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI!100x100.jpg","aj":"","hideImgUrl":"//8126010.s61i.faiusr.com/2/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI.jpg","p":"//8126010.s61i.faiusr.com/2/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI!900x900.jpg","w":640,"h":300}],"c":[{"tp":"//8126010.s61i.faiusr.com/2/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI!100x100.jpg","p":"//8126010.s61i.faiusr.com/2/AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI.jpg","i":"AD0IuvzvAxACGAAg6-ijvgUo1P7G4wQwgAU4rAI","t":1,"w":640,"h":300}],"st":6,"et":1,"sd":0,"showType":0,"h":false});
+                }
+            } catch (e){}
+
+
+            if(!Fai.top._manageMode && (Fai.top._ver == 10 || Fai.top._ver == 11) ){
+                Mobi.limitUv();
+            }
+
+            if(!Fai.top._manageMode && Fai.top._isFaiHost && !Fai.top._fkAuth && !Fai.top._isFromJzmManage && !Fai.top._isFromQz){
+                Mobi.limitDayUv();
+            }
+
+
+            if(!Fai.top._manageMode){
+                Mobi.ajaxLoadModuleDom(3, 0, {"_ajaxLoadModuleIDList":[],"fullUrl":"https%3A%2F%2Fxr14183784.m.icoc.me%2F","_ajaxLoadPaginationMidList":[],"topBarOptionInfo":{"mobiMallOpen":false,"_designMode":false,"_siteAuth":0}});
+                Mobi.renderModuleSSR(3, 0);
+            }
+            jm(window).bind("load", function() {
+                Fai.top._windowLoaded = true;
+                Mobi.checkUserDomainAction();
+                Mobi.actionByformPayResult('');
+                Mobi.fixFixedPostion();
+                Mobi.loadBDMap.loadBDMapScript();
+                if(false) {
+                    jm(function() {
+                        function cssTest() {
+                            var elem = document.createElement('x');
+                            elem.style.cssText = 'pointer-events:auto';
+                            return elem.style.pointerEvents === 'auto';
+                        }
+                        if(cssTest()) {
+                            jm('body').append("<svg id='GWWatermark' class='gw_watermark'><svg>")
+                        }
+                    })
+                }
+
+                setTimeout("Pre.hasOpenFaiscoBaiduBridge()", 1000);
+                Mobi.autoFixGWebTop(2);
+
+                Mobi.initBgmCookie();
+
+                Mobi.initFooterHeight();
+                Mobi.fixedInputFocusAutoHideFooter();
+            });
+
+            Mobi.initMobiPage({"id":348,"createTime":"2014-11-30","preview":"//mo.faisys.com/image/template/348/348.jpg","previewGif":"","color":16,"style":"//mo.faisys.com/css/template/348.min.css?v=201903201410","type":0,"moduleStyle":0,"designType":0,"presetIndex":0,"cube":11,"layout":2,"imagePage":340,"backgroundImage":0,"oldThemeColor":"#4664c7","colors":[16],"colorsName":["红紫"]});
+            Mobi.statisticalMobiVisitors({colId:3, pdId:-1, ndId:-1, sc:0, rf:"https://xr14183784.jzm.fkw.com/manage/mobiDesign.jsp?enterWay=bySite", statId:-1});
+            Mobi.mobiStatVisitTime(-1);
+            Mobi.report();
+
+            Mobi.addDistCode();
+
+            Mobi.bindMemberDistId();
+
+            Mobi.bindViewIdForTs();
+            Mobi.initOfficalNavSubMenu({"nav3":{"id":3,"name":"首页","show":true,"cil":[],"icon":{"c":0,"i":0,"iconType":0,"id":0,"content":"","classname":"","color":"","colIconType":0,"colIconCusType":0,"iconFileId":"","iconFilePath":""},"jumpCtrl":{"ide":"AGQIAxIA","columnType":100,"href":"/","info":{"t":100,"i":3,"u":"/","n":"首页","s":"AGQIAxIA"}},"nf":false},"nav7":{"id":7,"name":"动态","show":true,"cil":[],"icon":{"c":0,"i":0,"iconType":0,"id":0,"content":"","classname":"","color":"","colIconType":0,"colIconCusType":0,"iconFileId":"","iconFilePath":""},"jumpCtrl":{"ide":"AGQIBxIA","columnType":100,"href":"/nr.jsp","info":{"t":100,"i":7,"u":"/nr.jsp","n":"新闻动态","s":"AGQIBxIA"}},"nf":false},"nav9":{"id":9,"name":"留言板","show":true,"cil":[],"icon":{"c":0,"i":0,"iconType":0,"id":0,"content":"","classname":"","color":"","colIconType":0,"colIconCusType":0,"iconFileId":"","iconFilePath":""},"jumpCtrl":{"ide":"AGQICRIA","columnType":100,"href":"/mb.jsp","info":{"t":100,"i":9,"u":"/mb.jsp","n":"留言板","s":"AGQICRIA"}},"nf":false}},2, true);
+            Mobi.initShare('footerShareWeixin','footerShareWeibo','footerShareQQ');
+            Mobi.initFooterLanguageEvent();
+            Mobi.switchJump();
+            Mobi.initFooterStyle({"fb":{"y":1,"c":"","f":"","r":0,"p":"","ps":0},"rt":{"y":1,"s":12,"f":"","c":"rgba(1, 1, 1, 0)"},"gt":{"y":1,"s":12,"c":"rgba(0, 0, 0, 0.004028464945571682)"}});
+            Mobi.showQqBg();
+            Mobi.showPhonesBg();
+            Mobi.unLoadForWechat();
+            Mobi.outerUrlJump();
+            Mobi.initNavSubMenu({"nav3":{"id":3,"name":"首页","show":true,"cil":[],"icon":{"c":0,"i":0,"iconType":0,"id":0,"content":"","classname":"","color":"","colIconType":0,"colIconCusType":0,"iconFileId":"","iconFilePath":""},"jumpCtrl":{"ide":"AGQIAxIA","columnType":100,"href":"/","info":{"t":100,"i":3,"u":"/","n":"首页","s":"AGQIAxIA"}},"nf":false},"nav7":{"id":7,"name":"新闻动态","show":true,"cil":[],"icon":{"c":0,"i":0,"iconType":0,"id":0,"content":"","classname":"","color":"","colIconType":0,"colIconCusType":0,"iconFileId":"","iconFilePath":""},"jumpCtrl":{"ide":"AGQIBxIA","columnType":100,"href":"/nr.jsp","info":{"t":100,"i":7,"u":"/nr.jsp","n":"新闻动态","s":"AGQIBxIA"}},"nf":false},"nav9":{"id":9,"name":"留言板","show":true,"cil":[],"icon":{"c":0,"i":0,"iconType":0,"id":0,"content":"","classname":"","color":"","colIconType":0,"colIconCusType":0,"iconFileId":"","iconFilePath":""},"jumpCtrl":{"ide":"AGQICRIA","columnType":100,"href":"/mb.jsp","info":{"t":100,"i":9,"u":"/mb.jsp","n":"留言板","s":"AGQICRIA"}},"nf":false}}, 7, 0);
+            Mobi.bindPromoterAndInvite();Mobi.setShowSiteTitleBgFlag('0');
+            Mobi.changeSiteTitleBg('2','1','linear-gradient(384deg, rgba(244, 90, 143, 1) 14.035087719298245%,rgba(0, 161, 208, 1) 100%)','100','');
+            Mobi.logoSizeCompressByMargin();
+            Mobi.titlePositionRefreshByLogo();
+            Mobi.bindTopIconBack();
+            Mobi.noticeLeftRightMarquee({id: '342', direction: 'left', loop: 'infinite', speed: 'fast', moveout: true, isScrolling: true, noticeType: 4});Mobi.noticeMarqueeUpDown({ id:'330', direction:'bottom', speed:'normal' , stopTime:5000});Mobi.manageFaiscoAd(2);
+
+            Mobi.ajaxLogDog();
+
+            if (!Fai.top._manageMode) {
+                jzUtils.run({
+                    "name": "Pre.errnoIng",
+                    "base": window
+                });
+            }
+
+            jzUtils.trigger({"name": "moduleAnimation.subscribe", "base": Mobi});
+
+            jzUtils.run({"name": "moduleAnimation.scroll", "base": Mobi});
+
+            jzUtils.run({"name": "moduleAnimation.publish", "base": Mobi});
+
+            Mobi.initFooter();
+
+
+        });
+
+        if( !Fai.top._manageMode ){
+            if(Mobi.isWechat()){
+                Mobi.logDog(200055, 1);
+            }else{
+                Mobi.logDog(200055, 0);
+            }
+        }
+
+        if( Fai.top._manageMode ){
+            Fai.top._isExternalLinks = false;
+            Mobi.forbiddenExternalLinks();
+        }
+
+        jzUtils.run({
+            "name": "Pre.mallBuyCallBack",
+            "base": window
+        });
+
+
+        Mobi.receiveCouponFromHd(null);
+        Mobi.receiveCouponFromHdPopup(false, 0, "0.0");
+        Mobi.initNewGuestGiftInfo({"openThemeV3":false,"selectSkinId":3,"fullsitePattern":{"fsmc":"","sm_updateTime":0,"fscl":[],"s":{"b":{"t":0,"w":0.0,"s":0,"c":"#000"},"m":{"t":0,"mt":0.0,"mb":0.0,"mr":0.0,"ml":0.0},"im":{"t":0,"mt":0.0,"mb":0.0,"mr":0.0,"ml":0.0},"tcm":{"t":0,"mt":0.0,"mb":0.0,"mr":0.0,"ml":0.0},"tt":{"t":0,"s":0.0,"b":0,"c":{"t":0,"c":"#000"}},"ta":{"t":0},"s":{"t":0,"left":0.0,"top":0.0,"c":"#000","s":0.0},"th":{"t":0,"h":0.0},"tb":{"t":0,"c":"#000","fi":"","p":"","r":0,"re":0},"cb":{"t":0,"c":"#000","fi":"","p":"","r":0,"re":0,"isThemeColor":0},"msmc":"","mscl":[],"skinId":0,"updateTime":0},"nav":{"color":"","colorList":[],"type":0,"button":0,"direction":0,"skinId":0,"updateTime":0,"advance":{"routine":{"contentType":0,"fixedTop":false,"arrowOpen":false,"itemMargin":{"type":0,"top":0.0,"left":0.0,"bottom":0.0,"right":0.0},"segmentLine":{"type":0,"width":0.04,"style":0,"color":"#000"},"navBg":{"type":0,"color":"#000","picScale":0,"repeat":-1,"imgId":"","imgPath":""}},"normal":{"word":{"type":0,"size":0.7,"bold":false,"colorType":0,"color":"#000"},"icon":{"type":0,"size":0.7,"colorType":0,"color":"#000"},"background":{"type":0,"color":"#000"},"secWord":{"type":0,"size":0.7,"bold":false,"colorType":0,"color":"#000"},"secIcon":{"type":0,"color":"#000"},"secBakcground":{"type":0,"color":"#000"}},"select":{"word":{"type":0,"size":0.7,"bold":false,"colorType":0,"color":"#000"},"icon":{"type":0,"size":0.7,"colorType":0,"color":"#000"},"background":{"type":0,"color":"#000"},"secWord":{"type":0,"size":0.7,"bold":false,"colorType":0,"color":"#000"},"secBakcground":{"type":0,"color":"#000"}},"navBtn":{"colorType":0,"color":"#000","background":{"type":0,"color":"#000"},"border":{"type":0,"width":0.04,"style":0,"color":"#000"}}}},"footerNav":{"color":"","colorList":[],"skinId":0,"updateTime":0,"advance":{"routine":{"contentType":0,"segmentLine":{"type":0,"width":0.04,"style":0,"color":"#000","isThemeColor":0,"cusColorType":-1},"border":{"type":0,"width":0.04,"style":0,"color":"#000","isThemeColor":0,"cusColorType":-1},"navBg":{"type":0,"color":"#000","picScale":0,"repeat":-1,"imgId":"","isThemeColor":0,"imgPath":"","newSelect":false}},"normal":{"word":{"type":0,"size":0.7,"bold":false,"colorType":0,"cusColorType":-1,"color":"#000","isThemeColor":0},"icon":{"type":0,"size":0.7,"colorType":0,"cusColorType":-1,"color":"#000","isThemeColor":0}},"select":{"word":{"type":0,"size":0.7,"bold":false,"colorType":0,"cusColorType":-1,"color":"#000","isThemeColor":0},"icon":{"type":0,"size":0.7,"colorType":0,"cusColorType":-1,"color":"#000","isThemeColor":0}}}},"hs":{"styleId":0,"hh":0,"searchRange":0,"searchTips":"搜索","searchType":0,"historyType":1,"searchContent":0,"hotTopicList":[],"noList":[],"nProps":[],"ts":{"ls":0,"it":0,"ict":0,"ic":"#000","tl":0,"hsb":0,"bg":{"bgType":0,"color":"#000","bgImgPath":"","bgImgId":"","bgImgStyle":1,"re":0},"sbg":{"bt":0,"bc":"#000"},"sb":{"bt":0,"bc":"#000"},"sf":{"ft":0,"fs":0.0,"fct":0,"fc":"#000"},"si":{"it":0,"ic":"#000"}},"t":{"name":"-","fontType":0,"align":0,"font":{"fontSize":0.0,"fontColorType":0,"fontColor":"#000"},"jump":{"jumpOpen":1,"jumpType":"100","url":"/","jumpName":"首页","jumpIde":"AGQIAxIA"}},"lg":{"st":0,"lid":"","lip":"","ls":0,"lp":0,"m":{"type":0,"mt":0.0,"mb":0.0,"ml":0.0,"mr":0.0},"jump":{"jumpOpen":1,"jumpName":"首页","jumpType":"100","url":"/","jumpIde":"AGQIAxIA"},"li":{"ow":0,"oh":0}}},"fs":{"id":0,"fh":0,"c":"<font face=\"Arial\">©<\/font>2020 版权所有","fs":1,"ls":1,"se":1,"hp":1,"mc":1,"beian":0,"st":{"bg":{"bgType":0,"color":"#000","bgImgPath":"","bgImgId":"","bgImgStyle":1,"re":0},"cf":{"t":0,"fs":0.0,"ct":0,"c":"#000"},"mi":{"t":0,"fs":0.0,"ct":0,"c":"#000"},"dl":{"t":0,"c":"#000","w":0.0,"s":0}}},"ps":{"pc":"","bs":0,"pcl":[],"btn1":{"t":0,"bgc":"#000","fc":"#000"},"btn2":{"t":0,"bgc":"#000","fc":"#000"},"pf":{"t":0,"bgc":"#000","fc":"#000"},"kppb":{"t":0,"bgc":"#000","fc":"#000"}}},"defaultFullsitePattern":{"fsmc":"#000","sm_updateTime":0,"fscl":["#000","#000","#000","#000","#000","#000","#000","#000","#000","#000","#000","#000","#000","#000","#000"],"s":{"b":{"t":0,"w":0.0,"s":0,"c":"#000"},"m":{"t":0,"mt":0.0,"mb":0.0,"mr":0.0,"ml":0.0},"im":{"t":0,"mt":0.0,"mb":0.0,"mr":0.0,"ml":0.0},"tcm":{"t":0,"mt":0.0,"mb":0.0,"mr":0.0,"ml":0.0},"tt":{"t":0,"s":0.0,"b":0,"c":{"t":0,"c":"#000"}},"ta":{"t":0},"s":{"t":0,"left":0.0,"top":0.0,"c":"#000","s":0.0},"th":{"t":0,"h":0.0},"tb":{"t":0,"c":"#000","fi":"","p":"","r":0,"re":0},"cb":{"t":0,"c":"#000","fi":"","p":"","r":0,"re":0,"isThemeColor":0},"msmc":"","mscl":[],"skinId":3,"updateTime":0},"hs":{"styleId":0,"hh":0,"searchRange":0,"searchTips":"搜索","searchType":0,"historyType":1,"searchContent":0,"hotTopicList":[],"noList":[],"nProps":[],"ts":{"ls":0,"it":0,"ict":0,"ic":"#000","tl":0,"hsb":0,"bg":{"bgType":0,"color":"#000","bgImgPath":"","bgImgId":"","bgImgStyle":1,"re":0},"sbg":{"bt":0,"bc":"#000"},"sb":{"bt":0,"bc":"#000"},"sf":{"ft":0,"fs":0.0,"fct":0,"fc":"#000"},"si":{"it":0,"ic":"#000"}},"t":{"name":"-","fontType":0,"align":0,"font":{"fontSize":0.0,"fontColorType":0,"fontColor":"#000"},"jump":{"jumpOpen":1,"jumpType":"100","url":"/","jumpName":"首页","jumpIde":"AGQIAxIA"}},"lg":{"st":0,"lid":"","lip":"","ls":0,"lp":0,"m":{"type":0,"mt":0.0,"mb":0.0,"ml":0.0,"mr":0.0},"jump":{"jumpOpen":1,"jumpName":"首页","jumpType":"100","url":"/","jumpIde":"AGQIAxIA"},"li":{"ow":0,"oh":0}}},"ps":{"pc":"","bs":0,"pcl":[],"btn1":{"t":0,"bgc":"#000","fc":"#000"},"btn2":{"t":0,"bgc":"#000","fc":"#000"},"pf":{"t":0,"bgc":"#000","fc":"#000"},"kppb":{"t":0,"bgc":"#000","fc":"#000"}},"fs":{"id":0,"fh":0,"c":"<font face=\"Arial\">©<\/font>2020 版权所有","fs":1,"ls":1,"se":1,"hp":1,"mc":1,"beian":0,"st":{"bg":{"bgType":0,"color":"#000","bgImgPath":"","bgImgId":"","bgImgStyle":1,"re":0},"cf":{"t":0,"fs":0.0,"ct":0,"c":"#000"},"mi":{"t":0,"fs":0.0,"ct":0,"c":"#000"},"dl":{"t":0,"c":"#000","w":0.0,"s":0}}},"nav":{"color":"","colorList":[],"type":1,"button":1,"direction":3,"skinId":26,"updateTime":0,"advance":{"routine":{"contentType":0,"fixedTop":false,"arrowOpen":false,"itemMargin":{"type":0,"top":0.0,"left":0.0,"bottom":0.0,"right":0.0},"segmentLine":{"type":0,"width":0.04,"style":0,"color":"#000"},"navBg":{"type":0,"color":"#000","picScale":0,"repeat":-1,"imgId":"","imgPath":""}},"normal":{"word":{"type":0,"size":0.7,"bold":false,"colorType":0,"color":"#000"},"icon":{"type":0,"size":0.7,"colorType":0,"color":"#000"},"background":{"type":0,"color":"#000"},"secWord":{"type":0,"size":0.7,"bold":false,"colorType":0,"color":"#000"},"secIcon":{"type":0,"color":"#000"},"secBakcground":{"type":0,"color":"#000"}},"select":{"word":{"type":0,"size":0.7,"bold":false,"colorType":0,"color":"#000"},"icon":{"type":0,"size":0.7,"colorType":0,"color":"#000"},"background":{"type":0,"color":"#000"},"secWord":{"type":0,"size":0.7,"bold":false,"colorType":0,"color":"#000"},"secBakcground":{"type":0,"color":"#000"}},"navBtn":{"colorType":0,"color":"#000","background":{"type":0,"color":"#000"},"border":{"type":0,"width":0.04,"style":0,"color":"#000"}}}},"footerNav":{"color":"","colorList":[],"skinId":30,"updateTime":0,"advance":{"routine":{"contentType":0,"segmentLine":{"type":0,"width":0.04,"style":0,"color":"#000","isThemeColor":0,"cusColorType":-1},"border":{"type":0,"width":0.04,"style":0,"color":"#000","isThemeColor":0,"cusColorType":-1},"navBg":{"type":0,"color":"#000","picScale":0,"repeat":-1,"imgId":"","isThemeColor":0,"imgPath":"","newSelect":false}},"normal":{"word":{"type":0,"size":0.7,"bold":false,"colorType":0,"cusColorType":-1,"color":"#000","isThemeColor":0},"icon":{"type":0,"size":0.7,"colorType":0,"cusColorType":-1,"color":"#000","isThemeColor":0}},"select":{"word":{"type":0,"size":0.7,"bold":false,"colorType":0,"cusColorType":-1,"color":"#000","isThemeColor":0},"icon":{"type":0,"size":0.7,"colorType":0,"cusColorType":-1,"color":"#000","isThemeColor":0}}}}},"_cid":14812717,"_colId":3,"_mobiVer":10,"_acctInfo":{"aid":14812717,"aacct":"xr14183784","atype":0,"name":"蒋祖为","flag":0,"createTime":1505027787000,"trade":1505,"email":"15077320841@139.com","loginTime":1596176805000,"unionAid":0,"updateTime":1596176805000,"regProduct":0,"flag2":0,"regClientType":2},"_designMode":false,"_manageMode":false,"_allowScript":false,"_extId":0,"mobiMore":"更多","memberId":0,"_ajaxLoadModuleIDList":[],"moduleSSRList":[{"id":342,"renderSuccess":true},{"id":330,"renderSuccess":true},{"id":302,"renderSuccess":true},{"id":316,"renderSuccess":true,"inLabelModule":314},{"id":314,"renderSuccess":true},{"id":335,"renderSuccess":true},{"id":359,"renderSuccess":true,"inLabelModule":360},{"id":360,"renderSuccess":true}],"isOemFreeDomain":false,"isFreeCorpVisitorDomain":false,"allModule":{},"themeColor":"#4664c7","_siteAuth2":0,"_onlyHasBannerEditAuth":false,"_resRoot":"//mo.faisys.com","_loadingPath":"//mo.faisys.com/image/loading/transparent.png","oemPageTemplateView":false,"_ajaxLoadPaginationMidList":[],"_siteVer":10,"_siteAuth":0,"_originalAllowScript":false,"_originalSafeMode":false,"_templateFrame":348,"_templateLayout":2,"_templateType":0,"_moduleStyle":0,"labelModuleLoadOnDemand":false,"_resetOnlineService":false,"_resetTemplate":false});
+    } catch (e) {
+        e.innerError = true;
+        throw(e);
+    }
+</script>
+</body>
+</html>
